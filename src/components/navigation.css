@@ -1,0 +1,24 @@
+section {
+  border-color: transparent;
+}
+.ant-select {
+  border: none; /* Remove the border */
+}
+
+.ant-select-selector {
+  border: none !important; /* Remove the border */
+}
+
+.ant-select-placeholder {
+  color: black; /* Set the placeholder color to black */
+}
+.headerFont.select .ant-select-selector {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: black;
+}
+.custom-navigation {
+  background-color: transparent;
+  position: absolute;
+}

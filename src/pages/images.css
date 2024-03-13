@@ -1,0 +1,16 @@
+/* ZoomedImage.css */
+.zoom-container {
+  position: relative;
+  overflow: hidden;
+  width: 300px; /* Adjust the width as needed */
+}
+
+.zoom-image {
+  transition: transform 0.5s ease;
+  width: 100%;
+  height: auto;
+}
+
+.zoom-image:hover {
+  transform: scale(1.2);
+}

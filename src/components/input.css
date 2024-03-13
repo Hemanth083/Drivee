@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "nthing";
+  src: url("../assets/fonts/Nothing_You_Could_Do,Ojuju/Ojuju/Ojuju-VariableFont_wght.ttf");
+}
+.InputBar {
+  background-color: white;
+  height: 20vh;
+  width: 75%;
+  position: absolute;
+  z-index: 20;
+  margin-top: 90vh;
+  border-radius: 30px;
+  border-bottom: 2px solid lightgray;
+  /* border: 2px solid lightgray; */
+}
+.select {
+  /* font-family: "nthing"; */
+  width: 200px;
+  /* font-weight: 500; */
+}
+.submitButton {
+  background-color: transparent;
+  border: 2px solid lightgray;
+  color: black;
+  font-family: "nthing";
+  font-weight: 600;
+  width: 150px;
+}
+.ImageContainer {
+  text-align: end;
+  width: 50%;
+}
+.start {
+  width: 80%;
+  text-align: left;
+}
